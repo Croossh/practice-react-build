@@ -14,19 +14,19 @@ const MainNav = () => {
           </Link>
           <div className="MainNavList">
             <span>
-              <Link to={"/ProductList"}>제품보기</Link>
+              <Link to={"/"}>제품보기</Link>
             </span>
             <span>
-              <Link to={"/test2"}>고객후기</Link>
+              <Link to={"/"}>고객후기</Link>
             </span>
             <span>
-              <Link to={"/test3"}>장바구니</Link>
+              <Link to={"/"}>장바구니</Link>
             </span>
             <span>
-              <Link to={"/test4"}>고객센터</Link>
+              <Link to={"/"}>고객센터</Link>
             </span>
             <span>
-              <Link to={"/test5"}>기업복지</Link>
+              <Link to={"/"}>기업복지</Link>
             </span>
           </div>
         </nav>

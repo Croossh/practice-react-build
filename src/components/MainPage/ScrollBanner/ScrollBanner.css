@@ -1,0 +1,39 @@
+.ScrollBanner {
+  background-color: #ecd7c4;
+  height: 350px;
+}
+
+.Scroll_Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.ScrollView {
+  display: flex;
+  flex-direction: row;
+}
+
+.items {
+  height: auto;
+  width: 800px;
+}
+
+.MoveItems_btn1 {
+  transform: translateY(-50%);
+  font-size: 30px;
+  font-weight: bold;
+  margin: auto;
+  cursor: pointer;
+  user-select: none;
+}
+
+.MoveItems_btn2 {
+  transform: translateY(-50%);
+  font-size: 30px;
+  font-weight: bold;
+  margin: auto;
+  cursor: pointer;
+  user-select: none;
+}

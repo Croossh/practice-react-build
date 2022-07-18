@@ -1,7 +1,9 @@
 import "./HomePage.css";
 
-import MainNav from "../../components/MainNav/MainNav";
-import HeaderScripts from "../../components/HeaderScripts/HeaderScripts";
+import MainNav from "../../components/MainPage/MainNav/MainNav";
+import HeaderScripts from "../../components/MainPage/HeaderScripts/HeaderScripts";
+import ScrollBanner from "../../components/MainPage/ScrollBanner/ScrollBanner";
+import MiddleScripts from "../../components/MainPage/MiddleScripts/MiddleScripts";
 
 const HomePage = () => {
   return (
@@ -13,6 +15,8 @@ const HomePage = () => {
             <HeaderScripts />
           </div>
         </div>
+        <ScrollBanner />
+        <MiddleScripts />
       </div>
     </div>
   );
