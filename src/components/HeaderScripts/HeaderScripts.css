@@ -1,0 +1,29 @@
+.HeaderContent {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.TopScripts {
+  font-size: 26px;
+  margin-top: 250px;
+  margin-bottom: 100px;
+}
+
+.TopButton {
+  border: none;
+  border-radius: 40px;
+  background-color: #ff5c35;
+  outline: none;
+  cursor: pointer;
+
+  font-size: 17px;
+  font-weight: bold;
+  width: 175px;
+  height: 80px;
+}
+
+.TopButton a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}

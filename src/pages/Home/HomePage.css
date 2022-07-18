@@ -1,0 +1,17 @@
+.NavContainer {
+  position: relative;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+  min-height: 830px;
+  background-image: url(https://img.pilly.kr/main/v201911/cover-pc.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.inner {
+  width: 1100px;
+  margin: auto;
+}
